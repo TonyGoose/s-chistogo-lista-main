@@ -107,7 +107,6 @@ blockquote {
     line-height: 1.35;
 }
 
-
 .how-do {
     padding: 40px 20px 60px;
 }
@@ -188,9 +187,16 @@ blockquote {
     list-style: none;
 }
 
-.card_theme_birght {
+.card_theme_bright {
     color: #141414;
     background-color: #fee42a;
+    border-radius: 30px;
+}
+
+.card_theme_dark {
+    color: #fff;
+    background-color: #343434;
+    border-radius: 30px;
 }
 
 .card__author-photo {
@@ -217,4 +223,24 @@ blockquote {
     line-height: 1.35;
 }
 
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #fee42a;
+    padding: 20px;
+}
+
+.footer__links {
+    display: flex;
+    gap: 16px;
+    list-style: none;
+}
+
+.footer__links a {
+    color: #f5f5f5;
+    font-size: 14px;
+    line-height: 1.25;
+    text-decoration: none;
+}
 
